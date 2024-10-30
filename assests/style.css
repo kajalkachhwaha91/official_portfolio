@@ -1,0 +1,209 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+html,body{
+    background-image: url("./img/Untitled\ design\ \(5\).png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+   
+    
+}
+@media only screen and (max-width:700px){
+  background-image{
+     background-attachment:fixed ;
+     height: 100vw;
+     width: 100vw;
+  }
+  
+}
+@media only screen and (min-width:330px) and (max-width:700px){
+  /* screen and (min-width: 701px) and (max-width: 900px) */
+  heropage-img img{
+    width: 100%;
+    height: 500px;
+    margin: 0px 55px 0px 55px;
+  }
+  
+}
+.navbar-nav > a{
+  
+  padding-right:100px;
+  margin-left:40px;
+  margin-right:40px;
+  font-size: large;
+}
+.navbar-nav  a{
+    color: white;
+    &:hover{
+      background-color: green;
+      color: black;
+      transition:  ease-in 0.4s;
+      border-radius: 10%; 
+    }
+}
+.dropdown-item{
+  color: black;
+}
+.navbar-nav ul li a{
+  color: white;
+  &:hover{
+    background-color: green;
+    color: black;
+    transition:  ease-in 0.4s;
+    border-radius: 10%; 
+  }
+}
+  .heropage img{
+    border-radius: 5px;
+    margin-top: 3rem !important;
+  /* margin-top:4rem;
+  float:right;
+  height: 500px; 
+  width:520px; 
+  margin-right: 2rem; */
+
+  }
+  
+  .heropagecontent{
+    /* padding-top: 15rem; */
+    margin-left: 5rem;
+    background-color: transparent;
+    margin-top: 10rem !important;
+   
+  }
+  .heropagecontent p{
+    font-family: cursive;
+  }
+  .heropagecontent h1{
+    font-size:70px;
+  }
+  .heropagecontent h6{
+    font-family:'Franklin Gothic Medium';
+    font-size:medium;
+    margin: 0%;
+  }
+  .page1-button{
+    background-color:#186c2c;
+    size: 400px;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 20px;
+    margin-left: -3px;
+    color: black;
+    transition: ease-in 0.5s;
+    &:hover{
+      background-color: rgb(6, 154, 6);
+    }
+  }
+  .page1-button a{
+    color:black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 400;
+    
+  }
+  /* page2 */
+  #page2 img{
+    border-radius: 5px;
+    margin-top: 3rem !important;
+  }
+  @media only screen and (max-width:700px){
+    #page2 img{
+        /* height:650px;width:1200px */
+        width: 500px;
+        height: 500px;
+        margin: 0px 55px 0px 55px;
+    }
+ }
+ .page2-section2{
+  margin-left: 8rem;
+ }
+  .skillsection button{
+    border-radius: 20px;
+    border: 1px solid white;
+    display: inline;
+    justify-content:stretch;
+   margin: 10px;
+  }
+  .skillsection2 button{
+    border-radius: 20px;
+    border: 1px solid white;
+    display: inline;
+    justify-content:stretch;
+   margin: 10px;
+   
+  }
+  #page3{
+    margin-left: 40px;
+  }
+  .page3-h1 , .page4-h1{
+    font-size: 60px;
+    margin-top: 2rem;
+    padding: 1rem;
+    font-weight: 600;
+    background-color: transparent;
+  }
+  #page3 h1,h3,h6{
+    margin-left: 40px;
+  }
+  .page3-header{
+    margin-left:-2rem ;
+  }
+  .project-text{
+  margin-left: 300px;
+  }
+  #page4 {
+  display: flex;
+  }
+  #page4 img1{
+  left: 10px;
+    font-size: 10px;
+   }
+  #page4 img3{
+   left: 10px; 
+  }
+  #page4 img2{
+   left: 10px;
+  }
+  #page4 h1,h3,h6{
+    margin-left: 40px;
+  }
+  .page4-img{
+    margin-bottom: -5rem;
+  }
+  .page5-img{
+   display: inline-block;
+    padding-bottom: 10rem;
+    margin: 20px;
+   }
+  .page5-img1{
+    margin-bottom: -4rem;
+  }
+  .page5-form label{
+   font-size: larger;
+   padding: 10px;
+  }
+  .div-class{
+    display: flex;
+    margin: 20px;
+    gap: 4rem;
+  }
+  .project-div{
+    height: 400px;
+    width: 400px;
+    background-color: transparent;
+    border-radius: 1px rgb(154, 183, 154);
+    margin: 30px 30px 30px 30px;
+    padding: 20px;
+    gap: 2rem ;
+   
+   
+  }
+  .project-div img:hover{
+    border: 4px solid green;
+  }
